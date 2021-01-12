@@ -1,0 +1,141 @@
+/* line 1, ../sass/LargeDropDownButton.scss */
+.dropdown-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* line 6, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer {
+  -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #D6D6D6;
+  border-collapse: separate;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+/* line 18, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer.hasChild {
+  overflow: visible !important;
+}
+/* line 21, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer.hasChild .sc_DropDownItem:hover > .hasChildren {
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  visibility: visible;
+  display: block;
+}
+/* line 34, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem {
+  height: 34px;
+  position: relative;
+  cursor: pointer;
+}
+/* line 39, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem:hover {
+  background-color: #e3e3e3;
+}
+/* line 42, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem.showArrow {
+  position: relative;
+}
+/* line 44, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem.showArrow:after {
+  content: '';
+  position: absolute;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMTUyIiBoZWlnaHQ9IjExNTIiIHZpZXdCb3g9IjAgMCAxMTUyIDExNTIiPgo8cGF0aCBlbmFibGUtYmFja2dyb3VuZD0ibmV3IiBkPSJNMjQwIDE0NGwxNDQtMTQ0IDU3NiA1NzYtNTc2IDU3Ni0xNDQtMTQ0IDQzMi00MzJ6IiBmaWxsPSIjNjA2MDYwIi8+Cjwvc3ZnPg==");
+  background-size: 10px 10px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  top: 6px;
+  right: 10px;
+  width: 20px;
+  height: 26px;
+  pointer-events: none;
+}
+/* line 58, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem .hasChildren {
+  -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  width: 100%;
+  position: absolute;
+  z-index: 10000;
+  top: auto;
+    left: 250px;
+  margin: -34px 0 0 0;
+  background: #ffffff;
+}
+/* line 81, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem .hasChildren li {
+  display: block;
+  width: 100%;
+}
+/* line 86, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem .sc_DropDownItemLink {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  text-decoration: none !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #2b2b2b;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+/* line 99, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem .sc_DropDownItemLink:hover {
+  background-color: #e3e3e3;
+}
+/* line 103, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem .sc_DropDownItemLink_Disabled {
+  color: #B3B3B3;
+  display: block;
+  width: 250px;
+  height: 100%;
+  text-decoration: none !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+/* line 114, ../sass/LargeDropDownButton.scss */
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem .sc_DropDownItemImage {
+    border: none;
+}
+
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem .sc_DropDownItemText {
+    white-space: nowrap;
+    float: left;
+    margin-top: 8px;
+}
+
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownItem .sc_DropDownItemImageWrapper {
+    float: left;
+    margin-top: 8px;
+}
+
+.sc_LargeDropDownButton_DropDownItemsContainer .sc_DropDownListItemUsed {
+    background-color: #EFEFEF;
+}
