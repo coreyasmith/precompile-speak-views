@@ -109,33 +109,85 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-    <None Include="sitecore\shell\client\Sitecore\ExperienceEditor\Dialogs\BaseDialogMockup\BaseDialogMockup.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\ExperienceEditor\Dialogs\Components\ContentSeparator.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\ExperienceEditor\PageEditbar\PageEditBar.cshtml" />
+    <None Include="sitecore\shell\client\Sitecore\ExperienceEditor\Dialogs\BaseDialogMockup\BaseDialogMockup.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\ExperienceEditor\Dialogs\Components\ContentSeparator.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\ExperienceEditor\PageEditbar\PageEditBar.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
     <None Include="sitecore\shell\client\Sitecore\ExperienceEditor\web.config" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\BreadCrumb\Breadcrumb.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\Chunk\Chunk.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\CommandDependency\CommandDependency.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\Command\Command.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\DeviceSimulators\DeviceSimulators.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\DeviceSimulators\DeviceSimulatorsButton\DeviceSimulatorsButton.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\InsertOptions\InsertOptions.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\LargeButton\LargeButton.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\LargeDropDownButton\LargeDropDownButton.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\LargeGalleryButton\LargeGalleryButton.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\Panel\Panel.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\QuickbarButton\QuickbarButton.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\QuickBar\QuickBar.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\Ribbon\Ribbon.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\SelectLanguageButton\SelectLanguageButton.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\SelectVersionButton\SelectVersionButton.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\SmallButton\SmallButton.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\SmallCheckButton\SmallCheckButton.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\Strip\Strip.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Galleries\Components\AdditionalOptions\GalleryAdditionalOption.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Galleries\Languages\SelectLanguageGallery.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Galleries\Versions\SelectVersionGallery.cshtml" />
-    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Panels\PreviewDatePanel\PreviewDatePanel.cshtml" />
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\BreadCrumb\Breadcrumb.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\Chunk\Chunk.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\CommandDependency\CommandDependency.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\Command\Command.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\DeviceSimulators\DeviceSimulators.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\DeviceSimulators\DeviceSimulatorsButton\DeviceSimulatorsButton.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\InsertOptions\InsertOptions.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\LargeButton\LargeButton.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\LargeDropDownButton\LargeDropDownButton.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\LargeGalleryButton\LargeGalleryButton.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\Panel\Panel.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\QuickbarButton\QuickbarButton.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\QuickBar\QuickBar.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\Ribbon\Ribbon.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\SelectLanguageButton\SelectLanguageButton.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\SelectVersionButton\SelectVersionButton.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\SmallButton\SmallButton.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\SmallCheckButton\SmallCheckButton.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Controls\Strip\Strip.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Galleries\Components\AdditionalOptions\GalleryAdditionalOption.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Galleries\Languages\SelectLanguageGallery.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Galleries\Versions\SelectVersionGallery.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
+    <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\Panels\PreviewDatePanel\PreviewDatePanel.cshtml">
+      <Generator>RazorGenerator</Generator>
+    </None>
     <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\web.config" />
     <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\web.Debug.config" />
     <None Include="sitecore\shell\client\Sitecore\Speak\Ribbon\web.Release.config" />
